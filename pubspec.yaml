@@ -1,14 +1,21 @@
 name: jinja_reflectable
-description: A sample command-line application.
-version: 1.0.0
+description: Jinja reflectable.dart example.
+version: 1.0.1
+publish_to: none
 
 environment:
-  sdk: '>=2.7.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  jinja: ^0.2.0
-  reflectable: ^2.2.1+2
+  jinja: ^0.4.0-0
+  reflectable: ^3.0.0
 
 dev_dependencies:
-  build_runner: ^1.7.3
-  pedantic: ^1.8.0
+  build_runner: ^2.0.0
+  lints: ^1.0.0
+
+# dev.
+#
+# dependency_overrides:
+#   jinja:
+#     path: ../jinja
